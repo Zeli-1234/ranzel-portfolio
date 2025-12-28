@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ranzel Facundo | Professional Notebook Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Animated Background -->
+<div class="animated-background">
+  <!-- multiple spans for moving shapes -->
+  <span></span><span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span><span></span>
+</div>
+
+<div class="notebook-container">
+
+  <!-- Notebook Pages -->
+  <div class="notebook">
+
+    <!-- Page 1: Hero -->
+    <div class="page active">
+      <div class="drawing">
+        <!-- Sketch: Girl Face -->
+        <svg viewBox="0 0 200 200" class="face">
+          <circle cx="100" cy="100" r="90" stroke="white" stroke-width="2" fill="none"/>
+          <path d="M20,80 Q100,-40 180,80" stroke="white" stroke-width="2" fill="none"/>
+          <circle cx="70" cy="100" r="5" fill="white"/>
+          <circle cx="130" cy="100" r="5" fill="white"/>
+          <path d="M70,140 Q100,160 130,140" stroke="white" stroke-width="2" fill="none"/>
+        </svg>
+      </div>
+      <div class="content">
+        <h1>Ranzel Facundo</h1>
+        <h2>Customer Service Representative</h2>
+        <p>Welcome to my interactive notebook portfolio!</p>
+      </div>
+    </div>
+
+    <!-- Page 2: Experience -->
+    <div class="page">
+      <div class="drawing">
+        <!-- Sketch: Notebook Tools -->
+        <svg viewBox="0 0 200 200" class="face">
+          <rect x="40" y="30" width="120" height="140" stroke="white" stroke-width="2" fill="none"/>
+          <line x1="40" y1="50" x2="160" y2="50" stroke="white" stroke-width="2"/>
+          <line x1="40" y1="70" x2="160" y2="70" stroke="white" stroke-width="2"/>
+          <line x1="40" y1="90" x2="160" y2="90" stroke="white" stroke-width="2"/>
+        </svg>
+      </div>
+      <div class="content">
+        <h2>Experience</h2>
+        <div class="entry">
+          <h3>Work Immersion (2019–2020)</h3>
+          <p>Make-up (School)</p>
+          <ul>
+            <li>Applied basic make-up and skin prep</li>
+            <li>Learned hygiene & tool sanitation</li>
+            <li>Color matching for different skin tones</li>
+          </ul>
+        </div>
+        <div class="entry">
+          <h3>Product Advertising (2021–2022)</h3>
+          <p>JMB (Remote)</p>
+          <ul>
+            <li>Managed customer accounts</li>
+            <li>Promoted products online</li>
+            <li>Maintained organized records</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page 3: Education -->
+    <div class="page">
+      <div class="drawing">
+        <!-- Sketch: Graduation Cap -->
+        <svg viewBox="0 0 200 200" class="face">
+          <polygon points="100,20 20,80 100,140 180,80" stroke="white" stroke-width="2" fill="none"/>
+          <line x1="100" y1="140" x2="100" y2="180" stroke="white" stroke-width="2"/>
+          <circle cx="100" cy="180" r="5" fill="white"/>
+        </svg>
+      </div>
+      <div class="content">
+        <h2>Education</h2>
+        <p>Laguna State Polytechnic University – Siniloan Campus</p>
+        <p>Major: Service Management Program (2025–2026)</p>
+      </div>
+    </div>
+
+    <!-- Page 4: Certificates -->
+    <div class="page">
+      <div class="drawing">
+        <!-- Sketch: Certificate -->
+        <svg viewBox="0 0 200 200" class="face">
+          <rect x="30" y="40" width="140" height="120" stroke="white" stroke-width="2" fill="none"/>
+          <line x1="40" y1="70" x2="160" y2="70" stroke="white" stroke-width="2"/>
+          <line x1="40" y1="100" x2="160" y2="100" stroke="white" stroke-width="2"/>
+          <circle cx="100" cy="140" r="10" stroke="white" stroke-width="2" fill="none"/>
+        </svg>
+      </div>
+      <div class="content">
+        <h2>Certificates</h2>
+        <ul>
+          <li>Certified Six Sigma White Belt (2024)</li>
+          <li>Online Information Session on Data Privacy Awareness (2025)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Page 5: Contact -->
+    <div class="page">
+      <div class="drawing">
+        <!-- Sketch: Envelope -->
+        <svg viewBox="0 0 200 200" class="face">
+          <rect x="30" y="50" width="140" height="100" stroke="white" stroke-width="2" fill="none"/>
+          <polyline points="30,50 100,110 170,50" stroke="white" stroke-width="2" fill="none"/>
+        </svg>
+      </div>
+      <div class="content">
+        <h2>Contact</h2>
+        <p>📞 09928093858</p>
+        <p>📧 facundoranzelO7@gmail.com</p>
+        <p>📍 137, Brgy. Lucong, Mabitac, Laguna</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Navigation Buttons -->
+  <div class="nav-buttons">
+    <button id="prevBtn">Prev</button>
+    <button id="nextBtn">Next</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
